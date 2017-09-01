@@ -1,16 +1,24 @@
 {
   "name": "float-calc",
   "version": "0.1.1",
-  "description": "",
+  "description": "float calculator for javascript",
   "main": "dist/float-calc.js",
   "scripts": {
     "build": "webpack --progress",
     "lint": "eslint ./src",
     "start": "webpack --watch"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["float", "calculator"],
+  "author": "kokororin",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kokororin/float-calc/issues"
+  },
+  "homepage": "https://github.com/kokororin/float-calc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokororin/float-calc.git"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
@@ -19,5 +27,8 @@
     "eslint": "^4.5.0",
     "eslint-config-kotori": "^0.1.3",
     "webpack": "^3.5.5"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
